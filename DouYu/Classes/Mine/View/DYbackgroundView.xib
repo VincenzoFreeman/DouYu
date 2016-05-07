@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DYbackgroundView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_my_background" translatesAutoresizingMaskIntoConstraints="NO" id="eQH-1Q-o4R">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLA-Td-wvJ">
+                    <rect key="frame" x="76" y="70" width="34" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daJ-jd-tdi">
+                    <rect key="frame" x="384" y="80" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="d67-zc-ycd"/>
+                        <constraint firstAttribute="width" constant="20" id="tVM-2w-qlc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" image="image_my_arrow_right_white"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="avatar_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="dJ1-GX-IZf">
+                    <rect key="frame" x="8" y="62" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Ohl-tK-jm2"/>
+                        <constraint firstAttribute="height" constant="50" id="hwB-b6-t37"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fLA-Td-wvJ" firstAttribute="leading" secondItem="dJ1-GX-IZf" secondAttribute="trailing" constant="16" id="4Ih-sg-uyV"/>
+                <constraint firstItem="dJ1-GX-IZf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="55D-55-VyV"/>
+                <constraint firstItem="dJ1-GX-IZf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="NaD-o2-aUq"/>
+                <constraint firstItem="eQH-1Q-o4R" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PDI-kQ-b69"/>
+                <constraint firstAttribute="trailing" secondItem="eQH-1Q-o4R" secondAttribute="trailing" id="PX4-h1-m6b"/>
+                <constraint firstItem="eQH-1Q-o4R" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="V16-5c-0qQ"/>
+                <constraint firstAttribute="bottom" secondItem="eQH-1Q-o4R" secondAttribute="bottom" id="dXu-Ib-d1V"/>
+                <constraint firstAttribute="trailing" secondItem="daJ-jd-tdi" secondAttribute="trailing" constant="10" id="fKV-cC-Mpz"/>
+                <constraint firstItem="dJ1-GX-IZf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="gp8-Z5-XyE"/>
+                <constraint firstItem="dJ1-GX-IZf" firstAttribute="top" secondItem="eQH-1Q-o4R" secondAttribute="top" id="hee-bK-1Ck"/>
+                <constraint firstItem="fLA-Td-wvJ" firstAttribute="top" secondItem="dJ1-GX-IZf" secondAttribute="top" constant="10" id="pfM-pH-j2x"/>
+                <constraint firstItem="daJ-jd-tdi" firstAttribute="top" secondItem="dJ1-GX-IZf" secondAttribute="top" constant="20" id="y3U-KG-fyX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="NaD-o2-aUq"/>
+                    <exclude reference="hee-bK-1Ck"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="imageView" destination="dJ1-GX-IZf" id="bLN-X6-uIw"/>
+            </connections>
+            <point key="canvasLocation" x="342" y="57"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar_placeholder" width="32" height="32"/>
+        <image name="image_my_arrow_right_white" width="44" height="44"/>
+        <image name="image_my_background" width="750" height="280"/>
+    </resources>
+</document>

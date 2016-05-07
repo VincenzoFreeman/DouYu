@@ -1,0 +1,20 @@
+//
+//  DouYu.pch
+//  DouYu
+//
+//  Created by wenzhiji on 16/4/8.
+//  Copyright © 2016年 Manager. All rights reserved.
+//
+
+#ifndef DouYu_pch
+#define DouYu_pch
+#import "UIImage+image.h"
+#import "UIView+frame.h"
+#import "UIColor+Hex.h"
+
+#define ZJScreenW [UIScreen mainScreen].bounds.size.width
+#define ZJScreenH [UIScreen mainScreen].bounds.size.height
+#define ZJNaviH 44
+#define ZJColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define ZJRandomColor ZJColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#endif
