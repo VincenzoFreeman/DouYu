@@ -23,6 +23,9 @@
 		4C2FAF221CDD851A007E88A0 /* DYScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FAF211CDD851A007E88A0 /* DYScanViewController.m */; };
 		4C2FAF261CDD857F007E88A0 /* DYScanQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FAF251CDD857F007E88A0 /* DYScanQRCodeTool.m */; };
 		4C2FAF2E1CDD8A6E007E88A0 /* DYScanViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FAF2D1CDD8A6E007E88A0 /* DYScanViewController.storyboard */; };
+		4C2FAF311CDDC5F7007E88A0 /* DYCommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FAF301CDDC5F7007E88A0 /* DYCommendCell.m */; };
+		4C2FAF361CDDE837007E88A0 /* DYCommendCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FAF341CDDE837007E88A0 /* DYCommendCollectionCell.m */; };
+		4C2FAF371CDDE837007E88A0 /* DYCommendCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FAF351CDDE837007E88A0 /* DYCommendCollectionCell.xib */; };
 		4C4F8DBC1CC08C7B00084DEA /* DYbackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F8DBB1CC08C7B00084DEA /* DYbackgroundView.m */; };
 		4C4F8DBE1CC08C8500084DEA /* DYbackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4F8DBD1CC08C8500084DEA /* DYbackgroundView.xib */; };
 		4C4F8DC51CC099CE00084DEA /* DYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F8DC41CC099CE00084DEA /* DYLoginViewController.m */; };
@@ -73,6 +76,11 @@
 		4C2FAF251CDD857F007E88A0 /* DYScanQRCodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYScanQRCodeTool.m; sourceTree = "<group>"; };
 		4C2FAF2C1CDD86B0007E88A0 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		4C2FAF2D1CDD8A6E007E88A0 /* DYScanViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DYScanViewController.storyboard; sourceTree = "<group>"; };
+		4C2FAF2F1CDDC5F7007E88A0 /* DYCommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCommendCell.h; sourceTree = "<group>"; };
+		4C2FAF301CDDC5F7007E88A0 /* DYCommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCommendCell.m; sourceTree = "<group>"; };
+		4C2FAF331CDDE837007E88A0 /* DYCommendCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCommendCollectionCell.h; sourceTree = "<group>"; };
+		4C2FAF341CDDE837007E88A0 /* DYCommendCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCommendCollectionCell.m; sourceTree = "<group>"; };
+		4C2FAF351CDDE837007E88A0 /* DYCommendCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYCommendCollectionCell.xib; sourceTree = "<group>"; };
 		4C4F8DBA1CC08C7B00084DEA /* DYbackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYbackgroundView.h; sourceTree = "<group>"; };
 		4C4F8DBB1CC08C7B00084DEA /* DYbackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYbackgroundView.m; sourceTree = "<group>"; };
 		4C4F8DBD1CC08C8500084DEA /* DYbackgroundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYbackgroundView.xib; sourceTree = "<group>"; };
@@ -267,6 +275,7 @@
 				4C2FAF201CDD851A007E88A0 /* DYScanViewController.h */,
 				4C2FAF211CDD851A007E88A0 /* DYScanViewController.m */,
 				4C2FAF2D1CDD8A6E007E88A0 /* DYScanViewController.storyboard */,
+				4C2FAF321CDDC831007E88A0 /* CollectionView */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,6 +294,11 @@
 				4CEEE5791CC32D6400425F0D /* DYTitleButton.m */,
 				4CA1A1011CDCD0E40045AF16 /* DYNaviButton.h */,
 				4CA1A1021CDCD0E40045AF16 /* DYNaviButton.m */,
+				4C2FAF2F1CDDC5F7007E88A0 /* DYCommendCell.h */,
+				4C2FAF301CDDC5F7007E88A0 /* DYCommendCell.m */,
+				4C2FAF331CDDE837007E88A0 /* DYCommendCollectionCell.h */,
+				4C2FAF341CDDE837007E88A0 /* DYCommendCollectionCell.m */,
+				4C2FAF351CDDE837007E88A0 /* DYCommendCollectionCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -400,6 +414,13 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		4C2FAF321CDDC831007E88A0 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
 		4C4F8DBF1CC0984300084DEA /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -511,6 +532,7 @@
 				4C4F8DC71CC099DB00084DEA /* DYLoginViewController.storyboard in Resources */,
 				4C2FAF2E1CDD8A6E007E88A0 /* DYScanViewController.storyboard in Resources */,
 				4C00E88A1CB79435006818CF /* LaunchScreen.storyboard in Resources */,
+				4C2FAF371CDDE837007E88A0 /* DYCommendCollectionCell.xib in Resources */,
 				4C00E8871CB79435006818CF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,6 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2FAF361CDDE837007E88A0 /* DYCommendCollectionCell.m in Sources */,
 				4C00E8C81CB7AC53006818CF /* DYButton.m in Sources */,
 				4CAB3D881CBA6CBC003D833A /* UIColor+Hex.m in Sources */,
 				4C00E8B81CB798E0006818CF /* DYMienViewController.m in Sources */,
@@ -578,6 +601,7 @@
 				4C00E8AC1CB79600006818CF /* main.m in Sources */,
 				4C00E8BB1CB79917006818CF /* DYTabBarController.m in Sources */,
 				4C4F8DC51CC099CE00084DEA /* DYLoginViewController.m in Sources */,
+				4C2FAF311CDDC5F7007E88A0 /* DYCommendCell.m in Sources */,
 				4C00E8B51CB798B4006818CF /* DYHomePageViewController.m in Sources */,
 				4CEEE5831CC33AE200425F0D /* DYAmusementViewController.m in Sources */,
 				4CEEE57D1CC33A1F00425F0D /* DYCommendViewController.m in Sources */,

@@ -85,11 +85,11 @@
             break;
         }
         case 1:{// 搜索
-            
+            NSLog(@"点击了搜索");
             break;
         }
         case 2:{// 历史记录
-            
+            NSLog(@"点击了历史记录按钮");
             break;
         }
 

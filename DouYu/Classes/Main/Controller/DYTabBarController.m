@@ -35,6 +35,9 @@
     tabBar.frame = self.tabBar.bounds;
     tabBar.delegate = self;
     tabBar.itemArray = self.itemArray;
+//    tabBar.tintColor = [UIColor whiteColor];
+//    self.tabBar.tintColor = [UIColor whiteColor];
+    self.tabBar.backgroundColor = [UIColor whiteColor];
     [self.tabBar addSubview:tabBar];
 }
 #pragma mark - 在view即将显示时移除tabBar系统的子控件
