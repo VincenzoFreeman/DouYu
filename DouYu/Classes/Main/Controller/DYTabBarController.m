@@ -37,7 +37,7 @@
     tabBar.itemArray = self.itemArray;
 //    tabBar.tintColor = [UIColor whiteColor];
 //    self.tabBar.tintColor = [UIColor whiteColor];
-    self.tabBar.backgroundColor = [UIColor whiteColor];
+    self.tabBar.backgroundColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.99];
     [self.tabBar addSubview:tabBar];
 }
 #pragma mark - 在view即将显示时移除tabBar系统的子控件

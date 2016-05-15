@@ -36,7 +36,7 @@ static NSString *ID = @"cell";
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        self.collectionView.backgroundColor = [UIColor lightGrayColor];
+        self.collectionView.backgroundColor = [UIColor redColor];
     }
     return self;
 }

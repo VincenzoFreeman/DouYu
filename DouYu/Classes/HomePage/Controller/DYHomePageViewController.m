@@ -14,6 +14,7 @@
 #import "DYOddballController.h"
 #import "DYNaviButton.h"
 #import "DYScanViewController.h"
+
 @interface DYHomePageViewController ()<UIScrollViewDelegate>
 @property (weak,nonatomic)UIView *titleView;
 @property (weak, nonatomic)UIScrollView *scrollView;
@@ -34,6 +35,7 @@
     [self setupTitleView];
     // 添加导航条内容
     [self setupNavigatioBarContent];
+    // 添加header
     
 }
 /**
@@ -128,8 +130,8 @@
     scrollView.frame = self.view.bounds;
     // scrollView
     scrollView.scrollsToTop = NO;
+//    
     scrollView.delegate = self;
-    scrollView.backgroundColor = [UIColor greenColor];
     [self.view addSubview:scrollView];
     self.scrollView = scrollView;
     // 添加scrollView子控件
